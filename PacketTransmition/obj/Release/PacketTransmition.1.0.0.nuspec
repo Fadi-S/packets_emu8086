@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2012/06/nuspec.xsd">
+  <metadata>
+    <id>PacketTransmition</id>
+    <version>1.0.0</version>
+    <authors>PacketTransmition</authors>
+    <description>Package Description</description>
+    <dependencies>
+      <group targetFramework="net7.0-windows7.0" />
+    </dependencies>
+    <frameworkReferences>
+      <group targetFramework="net7.0-windows7.0">
+        <frameworkReference name="Microsoft.WindowsDesktop.App.WindowsForms" />
+      </group>
+    </frameworkReferences>
+  </metadata>
+  <files>
+    <file src="E:\Fadi\Koleya\Term 6\Microprocessors\PacketTransmition\PacketTransmition\bin\Release\net7.0-windows\PacketTransmition.runtimeconfig.json" target="lib\net7.0-windows7.0\PacketTransmition.runtimeconfig.json" />
+    <file src="E:\Fadi\Koleya\Term 6\Microprocessors\PacketTransmition\PacketTransmition\bin\Release\net7.0-windows\PacketTransmition.dll" target="lib\net7.0-windows7.0\PacketTransmition.dll" />
+  </files>
+</package>

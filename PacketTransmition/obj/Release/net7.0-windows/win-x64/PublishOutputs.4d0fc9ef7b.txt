@@ -1,0 +1,2 @@
+E:\Fadi\Koleya\Term 6\Microprocessors\PacketTransmition\PacketTransmition\bin\Release\net7.0-windows\publish\win-x64\PacketTransmition.pdb
+E:\Fadi\Koleya\Term 6\Microprocessors\PacketTransmition\PacketTransmition\bin\Release\net7.0-windows\publish\win-x64\PacketTransmition.exe

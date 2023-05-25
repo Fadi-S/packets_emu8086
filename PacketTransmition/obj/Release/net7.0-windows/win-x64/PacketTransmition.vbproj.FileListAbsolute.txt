@@ -1,0 +1,17 @@
+E:\Fadi\Koleya\Term 6\Microprocessors\PacketTransmition\PacketTransmition\bin\Release\net7.0-windows\win-x64\PacketTransmition.exe
+E:\Fadi\Koleya\Term 6\Microprocessors\PacketTransmition\PacketTransmition\bin\Release\net7.0-windows\win-x64\PacketTransmition.deps.json
+E:\Fadi\Koleya\Term 6\Microprocessors\PacketTransmition\PacketTransmition\bin\Release\net7.0-windows\win-x64\PacketTransmition.runtimeconfig.json
+E:\Fadi\Koleya\Term 6\Microprocessors\PacketTransmition\PacketTransmition\bin\Release\net7.0-windows\win-x64\PacketTransmition.dll
+E:\Fadi\Koleya\Term 6\Microprocessors\PacketTransmition\PacketTransmition\bin\Release\net7.0-windows\win-x64\PacketTransmition.pdb
+E:\Fadi\Koleya\Term 6\Microprocessors\PacketTransmition\PacketTransmition\obj\Release\net7.0-windows\win-x64\PacketTransmition.vbproj.AssemblyReference.cache
+E:\Fadi\Koleya\Term 6\Microprocessors\PacketTransmition\PacketTransmition\obj\Release\net7.0-windows\win-x64\PacketTransmition.MyForm.resources
+E:\Fadi\Koleya\Term 6\Microprocessors\PacketTransmition\PacketTransmition\obj\Release\net7.0-windows\win-x64\PacketTransmition.vbproj.GenerateResource.cache
+E:\Fadi\Koleya\Term 6\Microprocessors\PacketTransmition\PacketTransmition\obj\Release\net7.0-windows\win-x64\PacketTransmition.GeneratedMSBuildEditorConfig.editorconfig
+E:\Fadi\Koleya\Term 6\Microprocessors\PacketTransmition\PacketTransmition\obj\Release\net7.0-windows\win-x64\PacketTransmition.AssemblyInfoInputs.cache
+E:\Fadi\Koleya\Term 6\Microprocessors\PacketTransmition\PacketTransmition\obj\Release\net7.0-windows\win-x64\PacketTransmition.AssemblyInfo.vb
+E:\Fadi\Koleya\Term 6\Microprocessors\PacketTransmition\PacketTransmition\obj\Release\net7.0-windows\win-x64\PacketTransmition.vbproj.CoreCompileInputs.cache
+E:\Fadi\Koleya\Term 6\Microprocessors\PacketTransmition\PacketTransmition\obj\Release\net7.0-windows\win-x64\PacketTransmition.dll
+E:\Fadi\Koleya\Term 6\Microprocessors\PacketTransmition\PacketTransmition\obj\Release\net7.0-windows\win-x64\refint\PacketTransmition.dll
+E:\Fadi\Koleya\Term 6\Microprocessors\PacketTransmition\PacketTransmition\obj\Release\net7.0-windows\win-x64\PacketTransmition.pdb
+E:\Fadi\Koleya\Term 6\Microprocessors\PacketTransmition\PacketTransmition\obj\Release\net7.0-windows\win-x64\PacketTransmition.genruntimeconfig.cache
+E:\Fadi\Koleya\Term 6\Microprocessors\PacketTransmition\PacketTransmition\obj\Release\net7.0-windows\win-x64\ref\PacketTransmition.dll

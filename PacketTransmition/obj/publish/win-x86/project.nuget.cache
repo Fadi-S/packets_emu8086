@@ -1,0 +1,12 @@
+{
+  "version": 2,
+  "dgSpecHash": "ohRxBMrdNQOymfpdvu4FC4KXllLkYorWUQ50vM1e4wR62PgG82Ek+Q1JY0p5SevHpPLZBpy7kKzQA35yzTi/JA==",
+  "success": true,
+  "projectFilePath": "E:\\Fadi\\Koleya\\Term 6\\Microprocessors\\PacketTransmition\\PacketTransmition\\PacketTransmition.vbproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\fadis\\.nuget\\packages\\microsoft.netcore.app.runtime.win-x86\\7.0.5\\microsoft.netcore.app.runtime.win-x86.7.0.5.nupkg.sha512",
+    "C:\\Users\\fadis\\.nuget\\packages\\microsoft.windowsdesktop.app.runtime.win-x86\\7.0.5\\microsoft.windowsdesktop.app.runtime.win-x86.7.0.5.nupkg.sha512",
+    "C:\\Users\\fadis\\.nuget\\packages\\microsoft.aspnetcore.app.runtime.win-x86\\7.0.5\\microsoft.aspnetcore.app.runtime.win-x86.7.0.5.nupkg.sha512"
+  ],
+  "logs": []
+}
