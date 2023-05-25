@@ -4,7 +4,7 @@ DATA SEGMENT
     TRANS    DW    0
 
 
-#start=PacketTransmition.exe#
+#start=PacketTransmission.exe#
 
 
 name "packets"   
@@ -31,13 +31,12 @@ REPEAT:INC TRANS
 ELSE:  MOV CX,FINISHED 
        CMP CX,PACKETS
        JAE BREAK
-       SHL FINISHED,1   
+       SHL FINISHED,1        ; Multiply finished by 2
        SUB PACKETS,CX
 
 
 DONE:  CMP  PACKETS,0
-       JB   BREAK
-       JE   BREAK
+       JBE  BREAK
        CMP  FINISHED,128
        JNE  END
        MOV  FINISHED,0
