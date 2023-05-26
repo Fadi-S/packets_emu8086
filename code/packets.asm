@@ -1,7 +1,7 @@
 DATA SEGMENT
-    PACKETS  DW    0
-    FINISHED DW    0       ;NUMBER OF TRANSMITTED PACKETS AND DETECT 128 CYCLE
-    TRANS    DW    0
+    PACKETS          DW    0
+    NUMBER           DW    1       ; NUMBER OF TRANSMITTED PACKETS
+    TRANSMISSIONS    DW    0
 
 
 #start=PacketTransmission.exe#
@@ -11,40 +11,31 @@ name "packets"
 
 CODE SEGMENT
                            
-START: MOV AX,0
-       OUT 112,AX
-       IN AX, 110
-       MOV PACKETS,AX                          
+START:     MOV AX,0
+           OUT 112,AX
+           IN AX, 110
+           MOV PACKETS,AX                          
 
-
-REPEAT:INC TRANS
-       INC FINISHED
-       DEC PACKETS
+REPEAT:    INC TRANSMISSIONS
+           MOV CX,NUMBER
+           SUB PACKETS,CX
+           CMP PACKETS,0
+           JLE BREAK
        
-       CMP FINISHED,64
-       JB  ELSE     
+           CMP NUMBER,64
+           JB  MULTIPLY
+INCREMENT: INC NUMBER
+           JMP OUT
        
-       INC FINISHED
-       DEC PACKETS 
-       JMP DONE 
-       
-ELSE:  MOV CX,FINISHED 
-       CMP CX,PACKETS
-       JAE BREAK
-       SHL FINISHED,1        ; Multiply finished by 2
-       SUB PACKETS,CX
+MULTIPLY:  SHL NUMBER,1        ; Multiply number by 2
 
+OUT:       CMP  NUMBER,128
+           JNE  REPEAT
+           MOV  NUMBER,1
+           JMP  REPEAT
 
-DONE:  CMP  PACKETS,0
-       JBE  BREAK
-       CMP  FINISHED,128
-       JNE  END
-       MOV  FINISHED,0
-END:   JMP  REPEAT  
-
-
-BREAK: MOV AX,TRANS
-       OUT 112,AX
+BREAK:     MOV AX,TRANSMISSIONS
+           OUT 112,AX
 
 CODE ENDS
 
